@@ -24,7 +24,7 @@ Table of Contents
 11. References
 
 
-1. Dataset Information
+##Dataset Information
 
 Analyzed 5 datasets (csv files), listed below:
 	- games.csv : all games from 2004 season to last update with the date, teams and some details 	like number of points, etc.
@@ -41,7 +41,8 @@ Analyzed 5 datasets (csv files), listed below:
 
 This project uses the several datasets merged to create the finalLAL2.csv dataset, which contains detailed statistics from basketball games. Key columns include game dates, team IDs, points scored, field goal percentages, rebounds, assists, and more. The dataset spans the 2003 to 2022 season and includes data for both home and visitor teams.
 
-2. Project Structure
+
+##Project Structure
 
 The project is structured as follows:
 
@@ -50,18 +51,21 @@ scripts/: Contains Tableau workbooks and any preprocessing scripts.
 docs/: Presentation.
 README.md: This file, containing project information and instructions.
 
-3. Requirements
+
+##Requirements
 
 Tableau Desktop or Tableau Public
 Python (for  data preprocessing)
 
-4. Setup Instructions
+
+##Setup Instructions
 
 Install Tableau Desktop or Tableau Public.
 Clone this repository or download the provided files.
 Open the Tableau workbook included in the scripts/ directory to view the visualizations and dashboard.
 
-5. Data Exploration
+
+##Data Exploration
 
 An initial exploration of the dataset includes:
 
@@ -69,9 +73,10 @@ Understanding the structure of the data.
 Identifying key metrics like points scored, assists, rebounds, etc.
 Checking for missing or inconsistent data.
 
-6. Visualizations
 
-Ten visualizations are created to analyze different aspects of the data:
+##Visualizations
+
+Below visualizations were created to analyze different aspects of the data:
 
 Points Scored Over Time
 Win-Loss Ratio for Home Team
@@ -86,32 +91,34 @@ Opponent Analysis
 
 Each visualization provides unique insights into the game's performance metrics.
 
-7. Dashboard Creation
+
+##Dashboard Creation
 
 A comprehensive dashboard is created to aggregate the visualizations, offering an interactive and holistic view of the data. The dashboard includes filters for teams, dates, and other relevant metrics.
 
-8. Results/Key Findings
+
+##Results/Key Findings
 
 - LA Lakers had their most NBA wins in a calendar year (86) in 2008. Conversely, they had their fewest wins (19) in the 2015.
 - The LA Lakers had their highest 3-point success rate (38.19%) in 2017 and had their lowest 3-point accuracy (30.64%) in 2003. 
 - The LA Lakers attempted their highest amount of 3-point shots (42) in 2017 and attempted their lowest 3-point shots (26) in 2011. 
 
 
-9. Challenges
+##Challenges
 
 - Data type correction required after EDA and modelling on Jupyter lab.
 - Forecasting Reliability: had to forecast even with 2022 data been incomplete (ended at the close of the 2021/2022 season).
 - Dashboard Design Complexity: Designing an effective and user-friendly dashboard to meet diverse stakeholder needs and preferences.
 
 
-10. Future Work
+##Future Work
 
 - Explore additional features of the datasets for more comprehensive analysis.
 - Perform more visualizations to better interpret the data and get better deductions.
 - Refine visualizations and dashboard layout for better user experience.
 
 
-11. References
+##References
 
 - https://www.tableau.com/trial/tableau-software 
 - https://www.nba.com/stats
