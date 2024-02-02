@@ -26,18 +26,23 @@ Table of Contents
 
 ##Dataset Information
 
-Analyzed 5 datasets (csv files), listed below:
-	- games.csv : all games from 2004 season to last update with the date, teams and some details 	like number of points, etc.
-	- games_details.csv : details of games dataset, all statistics of players for a given game.
-	- players.csv : players details (name).
-	- ranking.csv : ranking of NBA given a day (split into west and east).
-	- teams.csv : all teams of NBA.
+Analyzed 5 datasets (csv files):
 
-
-- **Merged Dataset Name:** finalLAL2.csv
 - **Source:** NBA Stats website
 - **Data Range:** 2003-2022
 - **Format:** csv 
+
+The initial datasets are listed below:
+
+- games.csv : all games from 2004 season to last update with the date, teams and some details 	like number of points, etc.
+- games_details.csv : details of games dataset, all statistics of players for a given game.
+- players.csv : players details (name).
+- ranking.csv : ranking of NBA given a day (split into west and east).
+- teams.csv : all teams of NBA.
+
+
+
+- **Merged Dataset Name:** finalLAL2.csv
 
 This project uses the several datasets merged to create the finalLAL2.csv dataset, which contains detailed statistics from basketball games. Key columns include game dates, team IDs, points scored, field goal percentages, rebounds, assists, and more. The dataset spans the 2003 to 2022 season and includes data for both home and visitor teams.
 
