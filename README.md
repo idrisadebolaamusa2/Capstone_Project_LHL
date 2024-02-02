@@ -34,10 +34,10 @@ Analyzed 5 datasets (csv files), listed below:
 	- teams.csv : all teams of NBA.
 
 
-- **Merged Dataset Name:** FAA Wildlife Strikes, 2015
+- **Merged Dataset Name:** finalLAL2.csv
 - **Source:** NBA Stats website
 - **Data Range:** 2003-2022
-- **Format:** csv (finalLAL2.csv)
+- **Format:** csv 
 
 This project uses the several datasets merged to create the finalLAL2.csv dataset, which contains detailed statistics from basketball games. Key columns include game dates, team IDs, points scored, field goal percentages, rebounds, assists, and more. The dataset spans the 2003 to 2022 season and includes data for both home and visitor teams.
 
