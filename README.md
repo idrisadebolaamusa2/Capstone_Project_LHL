@@ -41,6 +41,7 @@ The initial datasets are listed below:
 - teams.csv : all teams of NBA.
 
 
+After data cleaning and preprocessing, the merged dataset is listed below:
 
 - **Merged Dataset Name:** finalLAL2.csv
 
@@ -52,8 +53,11 @@ This project uses the several datasets merged to create the finalLAL2.csv datase
 The project is structured as follows:
 
 data/: Folder contains the five (5) initial datasets and the merged the dataset file, finalLAL2.csv.
+
 scripts/: Contains Tableau workbooks and any preprocessing scripts.
+
 docs/: Presentation.
+
 README.md: This file, containing project information and instructions.
 
 
@@ -65,34 +69,34 @@ Python (for  data preprocessing)
 
 ##Setup Instructions
 
-Install Tableau Desktop or Tableau Public.
-Clone this repository or download the provided files.
-Open the Tableau workbook included in the scripts/ directory to view the visualizations and dashboard.
+- Install Tableau Desktop or Tableau Public.
+- Clone this repository or download the provided files.
+- Open the Tableau workbook included in the scripts/ directory to view the visualizations and dashboard.
 
 
 ##Data Exploration
 
 An initial exploration of the dataset includes:
 
-Understanding the structure of the data.
-Identifying key metrics like points scored, assists, rebounds, etc.
-Checking for missing or inconsistent data.
+- Understanding the structure of the data.
+- Identifying key metrics like points scored, assists, rebounds, etc.
+- Checking for missing or inconsistent data.
 
 
 ##Visualizations
 
 Below visualizations were created to analyze different aspects of the data:
 
-Points Scored Over Time
-Win-Loss Ratio for Home Team
-Average Rebounds by Teams
-Field Goal Percentage Comparison
-Points Distribution in Games
-Assist to Turnover Ratio
-Free Throw Accuracy Over Time
-Three-Point Success Rate
-Team Performance Dashboard
-Opponent Analysis
+- Points Scored Over Time
+- Win-Loss Ratio for Home Team
+- Average Rebounds by Teams
+- Field Goal Percentage Comparison
+- Points Distribution in Games
+- Assist to Turnover Ratio
+- Free Throw Accuracy Over Time
+- Three-Point Success Rate
+- Opponent Analysis
+- Team Performance Dashboard
 
 Each visualization provides unique insights into the game's performance metrics.
 
@@ -118,7 +122,7 @@ A comprehensive dashboard is created to aggregate the visualizations, offering a
 
 ##Future Work
 
-- Explore additional features of the datasets for more comprehensive analysis.
+- Explore additional features of the datasets for more comprehensive analysis, including player-specific analysis and impact on team results.
 - Perform more visualizations to better interpret the data and get better deductions.
 - Refine visualizations and dashboard layout for better user experience.
 
